@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+.navbar{
+    // background-color: red;
+    display: flex;
+    width: 100%;
+    padding: 2rem 5rem;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .logo {
+        font-family: "Sixtyfour Convergence", sans-serif;
+        font-size: 2rem;
+    }
+    .sub-domain{
+        width: 60%;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            >li{
+                text-decoration: none;
+                list-style: none;
+                &:hover{
+                    text-decoration: underline;
+                    transition: text-decoration 3s ease;
+                }
+            }
+        }
+    }
+    .contact{
+        background-color: black;
+        padding: 10px 25px;
+        color: white;
+        border-radius: 70px;
+        &:hover{
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    }
+}
